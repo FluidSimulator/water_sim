@@ -4,11 +4,6 @@ A CPU-based PIC/FLIP water simulator with a **from-scratch neural network**
 that learns to predict pressure corrections, reducing the number of expensive
 Jacobi solver iterations needed each frame.
 
-Converted from [Matthias Müller's Ten Minute Physics #18](https://matthias-research.github.io/pages/tenMinutePhysics/18-flip.html).  
-Targets **Intel i7-1255U (12th Gen), 16 GB RAM** — no GPU required.
-
----
-
 ## Quick Start
 
 ```bash
@@ -135,9 +130,7 @@ All parameters are at the top of `flip_ml_single.py`. Key settings:
 
 ## References
 
-- Müller, M. — [Ten Minute Physics #18: FLIP Water Simulator](https://matthias-research.github.io/pages/tenMinutePhysics/18-flip.html)
-- Müller, M. — [FLIP Tutorial Notes (PDF)](https://matthias-research.github.io/pages/tenMinutePhysics/18-flip.pdf)
+- Müller, M. — [Ten Minute Physics #18: FLIP Water Simulator]
 - Bridson, R. — *Fluid Simulation for Computer Graphics*
 - Kingma & Ba — "Adam: A Method for Stochastic Optimization" (2015)
 - He et al. — "Delving Deep into Rectifiers" (Kaiming Init, 2015)
-- [Taichi Programming Language](https://www.taichi-lang.org/)
